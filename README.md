@@ -1,8 +1,6 @@
-# Glitch in Bio!
+# MikkiPastel Biolink
 
-Your links, your way. A link-in-bio app you can customize any way you want.
-
-![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.global/d70d071e-fd72-4991-a194-b09993a9b465/gib.gif?v=1641381379577)
+*original for Glitch in Bio!*
 
 ## Direct traffic to your own Glitch-in-bio app in 3 steps:
 
@@ -77,3 +75,15 @@ Get **verified** links by adding `rel="me"` to your anchor tags in `layout/socia
 
 - Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
 - Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+
+## Setup
+
+```
+npm install
+npm start
+```
+
+For test
+```
+npm start
+```
