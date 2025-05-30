@@ -3,52 +3,52 @@
   "metaDescription": "bio link of MikkiPastel",
   "name": "MikkiPastel",
   "theme": "menu",
-  "avatarImage": "https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/MikkiPastel_2022.png?v=1671887617219",
+  "avatarImage": "public/img/mikkipastel_logo.webp",
   "links": [
     {
       "url": "https://www.mikkipastel.com",
       "text": "Website",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/icon_mikki_16bit.png?v=1671961693885"
+      "img":"public/img/mikkipastel_logo.webp"
     },
     {
       "url": "https://portfolio.mikkipastel.com/",
       "text": "Portfolio",
-      "img": "https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/minseo.jpeg?v=1671961544332"
+      "img": "public/img/minseo.webp"
     },
     {
       "url": "https://mikkicoding.mikkipastel.com/",
       "text": "MikkiCoding",
-      "img": "https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/Mikki_Jetpacks.png?v=1671961370433"
+      "img": "public/img/mikkicoding.webp"
     },
     {
       "url": "https://cryptominseo.mikkipastel.com/",
       "text": "Cryptominseo",
-      "img": "https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/image%20(3).png?v=1706937419318"
+      "img": "public/img/cryptominseo.webp"
     },
     {
       "url": "https://store.line.me/stickershop/author/4113372/en",
       "text": "LINE Sticker",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/mikki.png?v=1719134345814"
+      "img":"public/img/line-sticker.webp"
     },
     {
       "url": "https://play.google.com/store/apps/dev?id=6950665064391537398",
       "text": "Play Store",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/39.png?v=1671954640505"
+      "img":"public/img/play-store.webp"
     },
     {
       "url": "https://tipme.in.th/mikkipastel",
       "text": "Donate: Tipme",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/panda_cat.png?v=1671961609144"
+      "img":"public/img/donate.webp"
     },
     {
       "url": "https://www.notion.so/mikkipastel/CV-187100ccfe844db99066648db8f6f24e",
       "text": "Content Creator CV",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/tripster_360.png?v=1676790252270"
+      "img":"public/img/3468-wtg.webp"
     },
     {
       "url": "https://mikkipastel.github.io/bitcoin-odyssey/",
       "text": "Bitcoin Odyssey",
-      "img":"https://cdn.glitch.global/db4b0556-ccae-4a19-bbb6-7b7e7049aa12/bitcoin-odyssey.png?v=1726922146084"
+      "img":"public/img/bitcoin-odyssey.webp"
     }
   ],
   "social": {
