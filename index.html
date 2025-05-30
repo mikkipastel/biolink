@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+
+    {{> head }}
+
+    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/themes/{{settings.theme}}.css"
+    />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSHXFHV3B8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZSHXFHV3B8');
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="content">
+          {{> avatar }} 
+          {{> name }}
+
+          <p>
+            👩‍💻 Full-time Android Developer<br />
+            🌐 Part-time Content Creator<br />
+            ✨ Tripster Sub-mod & Contributor<br />
+            ⚡ Zentry Ambassador<br />
+          </p>
+
+          {{> social }}
+
+          <div class="video-wrapper__16-9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ka6mUJa9JGo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          {{> links }}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
