@@ -13,7 +13,7 @@ biolink website ของ MikkiPastel จากเดิมที่ใช้ Gl
 - `img/` — โฟลเดอร์เก็บรูปภาพที่ใช้ในเว็บไซต์
 
 ## Tips
-- [Tailwind CSS cheatsheet](!https://flowbite.com/tools/tailwind-cheat-sheet/)
+- [Tailwind CSS cheatsheet](https://flowbite.com/tools/tailwind-cheat-sheet/)
 - [Icon](https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/)
 
 ## License
