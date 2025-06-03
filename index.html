@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ settings.metaTitle }}</title>
-
-    {{> head }}
-
-    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/styles/themes/{{settings.theme}}.css"
-    />
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MikkiPastel</title>
+    <link rel="icon" type="image/webp" href="img/mikkipastel_logo.webp" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSHXFHV3B8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-ZSHXFHV3B8');
     </script>
   </head>
-  <body>
-    <main>
-      <div class="wrapper">
-        <div class="content">
-          {{> avatar }} 
-          {{> name }}
-
-          <p>
-            👩‍💻 Full-time Android Developer<br />
-            🌐 Part-time Content Creator<br />
-            ✨ Tripster Sub-mod & Contributor<br />
-            ⚡ Zentry Ambassador<br />
-          </p>
-
-          {{> social }}
-
-          <div class="video-wrapper__16-9">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/ka6mUJa9JGo"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-
-          {{> links }}
+  <body class="min-h-screen bg-gradient-to-b from-[#0a0a3c] to-[#b16adf] flex flex-col items-center py-8">
+    <div class="flex flex-col items-center w-full">
+      <img src="img/mikkipastel_logo.webp" alt="MikkiPastel Logo" class="w-40 h-40 rounded-full mb-4" />
+      <h1 class="text-5xl font-bold text-white mb-2">MikkiPastel</h1>
+      <ul class="text-2xl text-indigo-200 mb-4 space-y-1 text-center">
+        <li>👩‍💻 Full-time Android Developer</li>
+        <li>🌐 Part-time Content Creator</li>
+        <li>✨ Tripster Sub-mod & Contributor</li>
+        <li>⚡ Zentry Ambassador</li>
+      </ul>
+      <div class="flex space-x-3 mb-4">
+        <a href="https://www.facebook.com/mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://www.x.com/mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://www.instagram.com/mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://www.tiktok.com/@mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tiktok.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://www.youtube.com/c/mikkicoding"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/youtube.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://github.com/mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://medium.com/@minseobingsu"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/medium.svg" class="w-6 h-6 invert" /></a>
+        <a href="https://ko-fi.com/mikkipastel"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kofi.svg" class="w-6 h-6 invert" /></a>
+      </div>
+      <div class="w-full max-w-md px-4 mb-6">
+        <div class="aspect-video rounded-xl overflow-hidden shadow-lg mb-6">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/R2Pse-jXGsM" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="flex flex-col space-y-3">
+          <a href="https://www.mikkipastel.com/" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/mikkipastel_logo.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Website</span>
+          </a>
+          <a href="https://portfolio.mikkipastel.com/" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/minseo.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Portfolio</span>
+          </a>
+          <a href="https://mikkicoding.mikkipastel.com/" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/mikkicoding.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">MikkiCoding</span>
+          </a>
+          <a href="https://cryptominseo.mikkipastel.com/" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/cryptominseo.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Cryptominseo</span>
+          </a>
+          <a href="https://store.line.me/stickershop/author/4113372/en" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/line-sticker.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">LINE Sticker</span>
+          </a>
+          <a href="https://play.google.com/store/apps/dev?id=6950665064391537398" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/play-store.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Play Store</span>
+          </a>
+          <a href="https://tipme.in.th/mikkipastel" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/donate.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Donate: Tipme</span>
+          </a>
+          <a href="https://www.notion.so/mikkipastel/CV-187100ccfe844db99066648db8f6f24e" class="flex flex-row items-center justify-center bg-white/90 hover:bg-white text-black font-semibold py-4 px-6 rounded-xl shadow transition">
+            <span class="flex items-center justify-center mr-3"><img src="img/3468-wtg.webp" class="w-10 h-10 rounded" /></span>
+            <span class="flex-1 text-center text-xl">Content Creator CV</span>
+          </a>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
